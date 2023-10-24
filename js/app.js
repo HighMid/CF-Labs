@@ -57,17 +57,17 @@ function checkinput1(choice)
 
         case 'yes':
 
-            console.log("You are correct!")
+            alert("You are correct!")
             break;
 
         case 'no':
 
-            console.log("Sorry that's incorrect.");
+            alert("Sorry that's incorrect.");
             break;
 
         default:
 
-            console.log("Sorry I didn't understand, so I'll just say you didn't get it.");
+            alert("Sorry I didn't understand, so I'll just say you didn't get it.");
             break;
         
     }
@@ -80,17 +80,17 @@ function checkinput2(choice)
 
         case 'no':
 
-            console.log("You are correct!")
+            alert("You are correct!")
             break;
 
         case 'yes':
 
-            console.log("Sorry that's incorrect.");
+            alert("Sorry that's incorrect.");
             break;
 
         default:
 
-            console.log("Sorry I didn't understand, so I'll just say you didn't get it.");
+            alert("Sorry I didn't understand, so I'll just say you didn't get it.");
             break;
         
     }
@@ -132,17 +132,17 @@ function playconfirmation(name){
 
         case 'yes':
 
-        console.log("Hell yeah let's go " + name + "!");
+        alert("Hell yeah let's go " + name + "!");
         return true;
 
     case 'no':
 
-        console.log("Yeah I feel ya, maybe next time " + name + ", take care!");
+        alert("Yeah I feel ya, maybe next time " + name + ", take care!");
         return false;
 
     default:
 
-        console.log("Well you didn't say no so Yes you are !");
+        alert("Well you didn't say no so, Yes you are!");
         return true;
 
     }
