@@ -13,11 +13,7 @@ let username, play = true;
 alert("Hey Friend, Welcome to this page!")
 
 window.onload = function() {
-    // Your JavaScript code from app.js here
-}
-
-
-username = getname();
+    username = getname();
 
 play = playconfirmation(username);
 
@@ -153,5 +149,7 @@ function playconfirmation(name){
 
     
 
+
+}
 
 }
