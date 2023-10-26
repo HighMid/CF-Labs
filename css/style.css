@@ -4,3 +4,17 @@ header {
     padding: 20px; /* Add padding to the header for spacing */
     
 }
+/* Add some basic styles for the favorite games list */
+.favorite-games-list {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Style the list items */
+.favorite-games-list li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+body {
+    background-color: beige;
+}

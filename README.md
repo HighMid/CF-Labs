@@ -1,5 +1,6 @@
 # CF-Labs
 
->Place where I put all my labs man
-## Lab 02 Lighthouse report
-![Lab 02 Lighthouse report](lab02_lighthouse_report.JPG)
+> 25 Oct 23, Added two more prompts in JavaScript, made a ordered list for top 10 games I like, and made unordered lists with work experience and education.
+
+## Lab 03 Lighthouse report
+![Lab 03 Lighthouse report](lab03_lighthouse_report.JPG)
