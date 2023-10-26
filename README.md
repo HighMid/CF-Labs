@@ -4,3 +4,5 @@
 
 ## Lab 03 Lighthouse report
 ![Lab 03 Lighthouse report](lab03_lighthouse_report.JPG)
+
+Qilin was the driver and DeAndre was the navigator. 10/26/2023 4:11pm
