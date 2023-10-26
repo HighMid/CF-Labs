@@ -22,6 +22,7 @@ if (play == true){
     getinput();
     alert("Hell yeah " + username + " thanks for playing! See you around.")
 }
+}
 
 
 function getinput()
@@ -59,7 +60,14 @@ function getinput()
 
     alert("Let's play a number guessing game! You have 4 chances to guess the number! ");
     randNum = guessgame(1, 8); 
+    numberGuessingGame();
+    alert("Alright, next question there are many answers! Pretty easy too.");
+    manyAnswers();
 
+
+    function numberGuessingGame(){
+
+    
     for (let i = 0; i <= 4; i++)
     {
         
@@ -111,9 +119,10 @@ function getinput()
         }
 
     }
-     
-    alert("Alright, next question there are many answers! Pretty easy too.");
+    } 
+
     
+    function manyAnswers() {
 
     for (let i = 6; i > 0; i--)
     {
@@ -137,6 +146,7 @@ function getinput()
         }
         
     }
+}
     score = parseInt(scoreInt);
     alert("Hell yeah " + username + ", you got " + score + " out of 7 correct!");
     
@@ -259,4 +269,4 @@ function guessgame(min, max) //  Generates a number between 1 and 3, including b
     }
 }
 */
-}
+
