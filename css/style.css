@@ -1,9 +1,24 @@
+/* header {
+    background-color: #333;
+    color: #f3cf06; 
+    padding: 20px; 
+    
+} 
+*/
+
+
+
 header {
-    background-color: #333; /* Set a background color for the header */
+    background-image: url(/images/lofi-cyberpunk-background1.png); /* path to your image */
+    background-size: cover; /* this will cover the entire viewport */
+    background-repeat: no-repeat; /* this will prevent the image from repeating */
+    width: 100%;
+    height: 300px;
     color: #f3cf06; /* Set text color */
     padding: 20px; /* Add padding to the header for spacing */
-    
 }
+
+
 /* Add some basic styles for the favorite games list */
 .favorite-games-list {
     list-style-type: decimal;
